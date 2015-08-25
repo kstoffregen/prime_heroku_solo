@@ -1,0 +1,144 @@
+* {
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	font-size: 0px
+	font: inherit;
+}
+
+body {
+	width: 800px;
+	margin: auto;
+	background: dimgray;
+}
+
+header {
+	height: 345px;
+	border: 5px solid dimgray;
+	background: #cccccc url("http://i.imgur.com/Njh3jb0.jpg") top left no-repeat;
+}
+
+header h1 {
+	padding-left: 385px;
+	padding-top: 260px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 36px;
+	color: floralwhite;
+}
+
+main {
+	background: antiquewhite;
+	border-right: 5px solid dimgray;
+	border-left: 5px solid dimgray;
+}
+
+section {
+	padding: 15px 10px 10px 10px;
+	margin: 0px 0px 15px 0px;
+	border-top: 5px solid dimgray;
+}
+
+.nav {
+	padding-left: 385px;
+	color: floralwhite;
+}
+
+.nav li {
+	display: inline;
+	margin: 5px auto 0px auto;
+	padding: 0px 5px 0px 5px;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.nav li:first-child {
+	padding-left: 0px;
+	border-right: 2px solid;
+}
+
+.nav li:last-child {
+	padding-right: 0px;
+	border-left: 2px solid;
+}
+
+a {
+	color: floralwhite;
+	text-decoration: none;
+}
+
+.title a {
+	color: dimgray;
+	font-weight: bold;
+}
+
+a:hover {
+	color: paleturquoise;
+}
+
+h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	color: dimgray;
+	line-height: auto;
+	padding-bottom: 5px;
+	border-bottom: 2px solid floralwhite;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 18px;
+	padding-top: 10px;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 18px;
+	float: right;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	padding-top: 5px;
+}
+
+ul {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	padding: 5px 0px 0px 30px;
+}
+
+.skills h3, .skills p {
+	display: inline;
+	vertical-align: text-top;
+}
+
+.statement {
+	max-width: 350px;
+}
+
+.skills {
+	float: right;
+	max-width: 400px;
+}
+
+.statement, .skills{
+	display: inline-block;
+	border-top: none;
+}
+
+.title {
+	padding: 10px 0px 10px 0px;
+}
+
+.title h3, .title h4 {
+	display: inline;
+	margin: auto;
+	vertical-align: text-bottom;
+}
